@@ -13,7 +13,7 @@ import formatDate from '../../utils/formatDate';
 
 import { Container, CardContainer, Card, TableContainer } from './styles';
 
-interface Transaction {
+export interface Transaction {
   id: string;
   title: string;
   value: number;
